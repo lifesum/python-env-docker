@@ -1,0 +1,57 @@
+version: '3'
+services:
+  python27:
+    build:
+      context: .
+      args:
+        - VERSION=2.7
+    volumes:
+      - .:/root
+    command: /bin/sh
+    working_dir: /root
+    env_file:
+      - env
+  python34:
+    build:
+      context: .
+      args:
+        - VERSION=3.4
+    volumes:
+      - .:/root
+    command: /bin/sh
+    working_dir: /root
+    env_file:
+      - env
+  python35:
+    build:
+      context: .
+      args:
+        - VERSION=3.5
+    volumes:
+      - .:/root
+    command: /bin/sh
+    working_dir: /root
+    env_file:
+      - env
+  python36:
+    build:
+      context: .
+      args:
+        - VERSION=3.6
+    volumes:
+      - .:/root
+    command: /bin/sh
+    working_dir: /root
+    env_file:
+      - env
+  python37:
+    build:
+      context: .
+      args:
+        - VERSION=3.7
+    volumes:
+      - .:/root
+    command: /bin/sh
+    working_dir: /root
+    env_file:
+      - env
