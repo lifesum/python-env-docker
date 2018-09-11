@@ -26,6 +26,7 @@ python-3.7.0:~#
 
 To start a interactive python shell `ipython` shell with a python 2.7
 ```sh
+$ docker-compose run python27
 Python 2.7.15 (default, Sep  5 2018, 05:04:02) 
 Type "copyright", "credits" or "license" for more information.
 
