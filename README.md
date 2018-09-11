@@ -14,6 +14,7 @@ A set of files that uses docker and docker-compose to supply easy access to pyth
 - `requirements-2.7.txt` A list of packages only installed for python 2.7 (replace 2.7 with any python version)
 - `Dockerfile` instructs docker how to build the images
 - `docker-compose.yml` A list of all available python versions and how to run them
+- `env` Contains bash prompt syntax (`$PS1`) (Currently `python-<version>:<path>$ `)
 
 # Usage
 
