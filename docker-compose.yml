@@ -7,7 +7,7 @@ services:
         - VERSION=2.7
     volumes:
       - .:/root
-    command: /bin/sh
+    command: /bin/bash
     working_dir: /root
     env_file:
       - env
@@ -18,7 +18,7 @@ services:
         - VERSION=3.4
     volumes:
       - .:/root
-    command: /bin/sh
+    command: /bin/bash
     working_dir: /root
     env_file:
       - env
@@ -29,7 +29,7 @@ services:
         - VERSION=3.5
     volumes:
       - .:/root
-    command: /bin/sh
+    command: /bin/bash
     working_dir: /root
     env_file:
       - env
@@ -40,7 +40,7 @@ services:
         - VERSION=3.6
     volumes:
       - .:/root
-    command: /bin/sh
+    command: /bin/bash
     working_dir: /root
     env_file:
       - env
@@ -51,7 +51,7 @@ services:
         - VERSION=3.7
     volumes:
       - .:/root
-    command: /bin/sh
+    command: /bin/bash
     working_dir: /root
     env_file:
       - env
